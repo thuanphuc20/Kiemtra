@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/danhsach">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/anhtd"
+            android:layout_width="150dp"
+            android:layout_height="150dp">
+
+        </ImageView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <TextView
+                android:id="@+id/ten"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ten"
+                android:textSize="25sp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/capbac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Capbac"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/congtac"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Congtac"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/quocgia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="quocgia"
+                android:textSize="18sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
